@@ -66,3 +66,10 @@ Adding extension io.quarkus:quarkus-resteasy-jackson
 ```
 
 ### `mvn install -Pnative`
+
+### `mvn quarkus:add-extension -Dextensions="quarkus-mongodb-client,quarkus-smallrye-health,quarkus-smallrye-metrics"`
+```
+Adding extension io.quarkus:quarkus-mongodb-client
+Adding extension io.quarkus:quarkus-smallrye-metrics
+Adding extension io.quarkus:quarkus-smallrye-health
+```
